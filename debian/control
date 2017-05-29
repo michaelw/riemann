@@ -1,0 +1,17 @@
+Source: riemann
+Section: java
+Priority: optional
+Maintainer: Michael Weber <mweber@instartlogic.com>
+Build-Depends: debhelper (>=9),
+ ca-certificates,
+ dh-exec,
+ leiningen,
+ ins-oracle-jdk
+Standards-Version: 3.9.6
+
+Package: riemann
+Architecture: any
+Depends: ins-oracle-jdk, ${shlibs:Depends}, ${misc:Depends}
+Description: Riemann event stream processor
+ Riemann aggregates events from your servers and applications with a
+ powerful stream processing language.

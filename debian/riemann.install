@@ -1,0 +1,6 @@
+#! /usr/bin/dh-exec
+target/riemann-${RIEMANN_VERSION}-standalone.jar => usr/share/riemann/riemann.jar
+pkg/riemann-default => etc/default/riemann
+pkg/deb/riemann usr/bin
+pkg/deb/riemann.config etc/riemann
+pkg/deb/init.sh => etc/init.d/riemann

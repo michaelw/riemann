@@ -1,0 +1,5 @@
+riemann (0.2.14~0.20170516-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Michael Weber <mweber@instartlogic.com>  Mon, 29 May 2017 04:21:33 +0000
