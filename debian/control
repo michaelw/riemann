@@ -6,12 +6,12 @@ Build-Depends: debhelper (>=9),
  ca-certificates,
  dh-exec,
  leiningen,
- ins-oracle-jdk
+ ins-oracle-jdk | google-jdk | java8-jdk | java8-sdk | oracle-java8-installer
 Standards-Version: 3.9.6
 
 Package: riemann
 Architecture: any
-Depends: ins-oracle-jdk, ${shlibs:Depends}, ${misc:Depends}
+Depends: ins-oracle-jdk | google-jdk | java8-jdk | java8-sdk | oracle-java8-installer, ${shlibs:Depends}, ${misc:Depends}
 Description: Riemann event stream processor
  Riemann aggregates events from your servers and applications with a
  powerful stream processing language.
